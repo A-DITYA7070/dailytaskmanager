@@ -1,0 +1,60 @@
+
+.Home{
+    width: 80%;
+    margin:auto;
+    background-color: rgb(163, 241, 241);
+    min-height: 100vh;
+    box-sizing: border-box;
+    max-height: 50px;
+}
+.Home > form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+input,textarea,button{
+    padding: 1vmax ;
+    border: 1px solid rgb(13, 1, 1);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+button{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(9, 10, 10);
+    color:white;
+    text-align: center;
+
+}
+.task{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 8px 3%;
+    align-items: center;
+}
+.task>div{
+    width: 100%;
+} 
+.over-flow p{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vmax;
+}
+.task>button{
+  border-radius: 100%;
+  padding: 5px;
+  background-color: crimson;
+  color: rgb(239, 235, 235);
+  height: 30px;
+  width: 30px;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.task button:hover{
+   background-color:rgb(141, 16, 41);
+}
